@@ -38,7 +38,7 @@ st.write("""---""")
 st.header("1- Attempting to find useful patterns in different seasons of the year")
 st.write("The idea is to divide each year to its seasons, and check if making predictions depending on that is more accurate or not.")
 
-data=yf.download(tickers="MONTECARLO.NS",start="2012-01-01",end=datetime.now())
+data=yf.download(tickers="SAIL.NS",start="2012-01-01",end=datetime.now())
 
 data=data.reset_index()
 season=[]
